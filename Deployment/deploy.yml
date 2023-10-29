@@ -6,11 +6,11 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: rudranshd/calculator_app:latest
+        name: raddi1972/calculator_app:latest
         source: pull
     - name: Start docker container
       service:
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name calculator rudranshd/calculator_app
+      shell: docker run -it -d --name calculator raddi1972/calculator_app
