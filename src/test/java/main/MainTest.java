@@ -21,7 +21,7 @@ public class MainTest {
         int expectedAnswer = 10;
         int n = 5;
         int r = 2;
-        int answer = Main.nCr(n, r);
+        int answer = Main.calculateBinomialCoefficient(n, r);
         Assert.assertEquals(answer, expectedAnswer);
     }
 

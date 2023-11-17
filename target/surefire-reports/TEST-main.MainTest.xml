@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="main.MainTest" time="0.422" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="main.MainTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.8.1+1"/>
+    <property name="java.vm.version" value="17.0.9+8"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/home/rudranshd/Downloads/code/calculator"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -15,7 +15,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/rudranshd/Downloads/code/calculator"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="17.0.8.1+1"/>
+    <property name="java.runtime.version" value="17.0.9+8"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
@@ -30,7 +30,7 @@
     <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.5.5-1-MANJARO"/>
+    <property name="os.version" value="6.5.11-1-MANJARO"/>
     <property name="library.jansi.path" value="/opt/maven/lib/jansi-native"/>
     <property name="user.home" value="/home/rudranshd"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
@@ -40,24 +40,24 @@
     <property name="java.class.path" value="/opt/maven/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.home" value="/usr/lib/jvm/java-17-openjdk"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="17.0.8.1"/>
+    <property name="java.version" value="17.0.9"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.vendor" value="N/A"/>
     <property name="sun.stderr.encoding" value="UTF-8"/>
     <property name="maven.home" value="/opt/maven"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.version.date" value="2023-10-17"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
-  <testcase classname="main.MainTest" name="gcd" time="0.422"/>
+  <testcase classname="main.MainTest" name="gcd" time="0.003"/>
   <testcase classname="main.MainTest" name="nCr" time="0"/>
   <testcase classname="main.MainTest" name="power" time="0"/>
 </testsuite>
